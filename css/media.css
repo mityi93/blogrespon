@@ -1,57 +1,44 @@
 @media (max-width:1200px) {
-
     .container {
-        width: 1200px;
+        max-width: 1200px;
     }
-
     .blog-title {
         font-size: 18px;
         line-height: 24px;
     }
-
     .sub-form {
         padding: 0 15px;
     }
-
 }
 
 @media (max-width:1024px) {
-
     .container {
-        width: 1024px;
+        max-width: 1024px;
     }
-
     .content__container {
         display: block;
     }
-
     .posts {
         margin-bottom: 50px;
     }
-
     .popular-posts__list {
         display: flex;
         justify-content: space-between;
     }
-
     .popular-posts__item  {
         flex-grow: 1;
         max-width: 30%;
     }
-
     .popular-posts__article {
         border-bottom: 1px solid transparent;
     }
-
     .sub-form {
         padding: 0 20%;
         display: flex;
     }
-
     .sub-form__input {
         margin: 0 20px 0 0;
     }
-
     .contacts {
         padding: 70px 0;
     }
@@ -61,40 +48,39 @@
     .contacts__right {
         padding-right: 0;
     }
-
+    .post-wrapper {
+        margin-bottom: 50px;
+    }
+    .post-content__container {
+        display: block;
+    }
 }
 
 @media (max-width:768px) {
     .container {
-        width: 768px;
+        max-width:768px;
     }
     .blog-post--main {
         height: auto;
     }
-
     .post-grid {
         display: block;
     }
     .post-grid__item:not(:last-child) {
         margin-bottom: 30px;
     }
-
     .popular-posts__list {
         display: block;
     }
-
     .popular-posts__item {
         max-width: none;
     }
-
     .nav {
         display: none;
     }
-
     .sub-form {
         padding: 0 5%;
     }
-
     .contacts-container {
        display: block;
     } 
@@ -104,14 +90,25 @@
     }
     .contacts__right {
         width: 100%;
-        
     }
-
+    .post,
+    .post-links  {
+        max-width: none;
+    }
+    .post-links {
+        flex-direction: column;
+    }
+    .post-links__link--prev {
+        margin-bottom: 20px;
+    }
+    .post-banner__container {
+        border-radius: 0;
+    }
 }
 
 @media (max-width:375px) {
     .container {
-        width: 375px;
+        max-width: 375px;
     }
     .sub-form {
         padding: 0;
@@ -121,11 +118,7 @@
         margin-right: 0;
         margin-bottom: 20px;
     }
-
     .contacts-form-wrapper {
         padding: 30px;
-    }
-    .footer {
-        width: 100%;
     }
 }
