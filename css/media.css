@@ -1,4 +1,9 @@
 @media (max-width:1200px) {
+
+    .container {
+        width: 1200px;
+    }
+
     .blog-title {
         font-size: 18px;
         line-height: 24px;
@@ -11,6 +16,11 @@
 }
 
 @media (max-width:1024px) {
+
+    .container {
+        width: 1024px;
+    }
+
     .content__container {
         display: block;
     }
@@ -55,7 +65,9 @@
 }
 
 @media (max-width:768px) {
-
+    .container {
+        width: 768px;
+    }
     .blog-post--main {
         height: auto;
     }
@@ -98,6 +110,9 @@
 }
 
 @media (max-width:375px) {
+    .container {
+        width: 375px;
+    }
     .sub-form {
         padding: 0;
         display: block;
@@ -109,5 +124,8 @@
 
     .contacts-form-wrapper {
         padding: 30px;
+    }
+    .footer {
+        width: 100%;
     }
 }
