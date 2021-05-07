@@ -12,11 +12,6 @@
 </head>
 
 <body>
-    <div class="toggle-sidebar">
-        <button class="menu-icon-wrapper">
-            <div class="menu-icon"></div>
-        </button>
-    </div>
     <div class="footer-bottom">
         <header class="header">
             <div class="container header__container">
@@ -61,18 +56,6 @@
             </div>
         </footer>
     </div>
-    <script>
-        /*Выбор на мобильных устройствах */
-        const sidebarToggleBtn = document.querySelector('.menu-icon-wrapper');
-        const menuIcon = document.querySelector('.menu-icon');
-        const sidebar = document.querySelector('.header__right');
-
-        sidebarToggleBtn.onclick = function () {
-            menuIcon.classList.toggle('menu-icon-active');
-            sidebar.classList.toggle('sidebar--mobile-active');
-
-        };
-    </script>
 </body>
 
 </html>
