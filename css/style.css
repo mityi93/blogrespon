@@ -246,6 +246,11 @@ body {
     margin-bottom: 20px;
 }
 
+.blog-post:hover a,
+.post-grid__item:hover .blog-post__date {
+    color: var(--dark-color);
+}
+
 .blog-post__link::before {
     content: '';
     position: absolute;
@@ -284,10 +289,12 @@ body {
 
 .post-grid__item:nth-child(5n + 2) {
     grid-row: 2 span;
+    border-radius: 20px;
 }
 
 .post-grid__item:nth-child(5n + 3) {
     grid-row: 2 span;
+    border-radius: 20px;
 }
 
 .post-grid__item:nth-child(5n + 4) {
@@ -501,6 +508,9 @@ body {
     border-radius: 20px;
 }
 
+.post-grid__item:hover .blog-post__date {
+    color: var(--dark-color);
+}
 .header-search {
     display: none;
     position: absolute;
